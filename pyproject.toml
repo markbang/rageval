@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rageval"
+version = "0.1.0"
+description = "Experiment framework for comparing Vector RAG and LightRAG."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.12.0",
+    "langchain-community>=0.3.27",
+    "langchain-openai>=0.3.28",
+    "langchain-text-splitters>=0.3.9",
+    "lightrag-hku>=1.4.8",
+    "matplotlib>=3.10.8",
+    "numpy>=2.3.3",
+    "openai>=2.28.0",
+    "ragas>=0.4.3",
+    "scipy>=1.17.1",
+    "tiktoken>=0.11.0",
+    "tqdm>=4.67.1",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["rageval"]

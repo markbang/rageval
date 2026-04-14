@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+hf_release/
+tmp/
+
+# Local runtime artifacts
+logs/
+results/
+
+# Local datasets
+dataset/*
+!dataset/FinanceBench/
+dataset/FinanceBench/*
+!dataset/FinanceBench/README.md
+!dataset/processed/
+dataset/processed/*
+!dataset/processed/experiment/
+!dataset/processed/experiment/**
+.omx/
