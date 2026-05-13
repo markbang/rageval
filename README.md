@@ -3,20 +3,6 @@
 Code-only release for the `rageval` experiment framework used to compare
 `VectorRAG` and `LightRAG` across documents of different lengths.
 
-## What is included
-
-- core experiment package under `rageval/`
-- runnable entry scripts under `scripts/`
-- `run_experiment.py` and `smoke_test.py`
-- tests used for experiment code verification
-
-## What is intentionally excluded
-
-- thesis writing materials
-- AI/agent orchestration files (such as `AGENTS.md`, `.omx/`, `.agents/`)
-- local results, logs, temporary files
-- raw and processed datasets
-
 ## Dataset location
 
 The experiment datasets are hosted separately on Hugging Face:
